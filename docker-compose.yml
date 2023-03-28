@@ -13,6 +13,8 @@ services:
       - db
     networks:
       - invoiceninja
+    ports:
+      - "80:9000"
     extra_hosts:
       - "in5.localhost:192.168.0.124 " #host and ip
 
@@ -24,7 +26,7 @@ services:
 #    build:
 #      context: ./config/mysql
     ports:
-      - "80:3306"
+      - "3305:3306"
     restart: always
     env_file: env
     volumes:
