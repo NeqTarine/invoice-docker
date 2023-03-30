@@ -35,10 +35,10 @@ MAIL_FROM_ADDRESS='user@example.com'
 MAIL_FROM_NAME='Self Hosted User'
 
 # MySQL
-MYSQL_ROOT_PASSWORD=ninjaAdm1nPassword
-MYSQL_USER=ninja
-MYSQL_PASSWORD=ninja
-MYSQL_DATABASE=ninja
+#MYSQL_ROOT_PASSWORD=ninjaAdm1nPassword
+#MYSQL_USER=ninja
+#MYSQL_PASSWORD=ninja
+#MYSQL_DATABASE=ninja
 
 # V4 env vars
 # DB_STRICT=false
