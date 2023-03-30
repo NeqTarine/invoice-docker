@@ -57,7 +57,7 @@ services:
       #- ./config/mysql/backup-script:/etc/cron.weekly/weekly:ro
       #- ./config/mysql/backup-script:/etc/cron.monthly/monthly:ro
   #  networks:
-      - invoiceninja
+   #   - invoiceninja
   #  extra_hosts:
   #    - "in5.localhost:192.168.0.124 " #host and ip
 
